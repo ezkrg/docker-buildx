@@ -1,3 +1,4 @@
+---
 kind: pipeline
 type: docker
 name: default
@@ -26,3 +27,8 @@ steps:
           - cron
         cron:
           - nightly
+---
+kind: signature
+hmac: ae9bf46f59529624480e174f92f7fc2b0330d0442016d7be767489be5699902f
+
+...
