@@ -29,6 +29,6 @@ steps:
         - nightly
 ---
 kind: signature
-hmac: a035d1987cc1037d45742d0f36fe1f430c9827fd6d207c6eeee432bad5fc1f17
+hmac: add9ce3747538933002e7878c084239f43dbce6699d4bba4333c366514533e6e
 
 ...
