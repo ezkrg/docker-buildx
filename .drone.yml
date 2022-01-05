@@ -22,13 +22,9 @@ steps:
       password:
         from_secret: DHP
       repo: ezkrg/buildx
-      when:
-        event:
-        - cron
-        cron:
-        - nightly
+
 ---
 kind: signature
-hmac: add9ce3747538933002e7878c084239f43dbce6699d4bba4333c366514533e6e
+hmac: 344624dfad2cc931554ccbcbb2ae2f5648f2a2fc06cb15ace97e3fee46885310
 
 ...
